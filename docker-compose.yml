@@ -5,10 +5,10 @@ services:
     image: mysql:8
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: anujgajjar
+      MYSQL_ROOT_PASSWORD: redhat
       MYSQL_DATABASE: userdb
       MYSQL_USER: springuser
-      MYSQL_PASSWORD: anujgajjar
+      MYSQL_PASSWORD: redhat
     ports:
       - "3306:3306"
     healthcheck:
